@@ -1,0 +1,13 @@
+.nav {
+    list-style-type: none;
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.table {
+    border: 1px solid black;
+    width: 100%;
+    aspect-ratio: inherit;
+}
