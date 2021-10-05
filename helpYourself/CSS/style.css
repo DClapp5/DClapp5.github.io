@@ -1,5 +1,5 @@
 body {
-    background-color: lightgray;
+    background-color: rgb(180, 180, 180);
 }
 
 .nav {
@@ -28,4 +28,13 @@ ul.nav li a:hover {
 
 .active {
     background-color: bisque;
+}
+
+div {
+    size: 25px;
+    color: rgb(66, 66, 66);
+    display: block;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
 }
