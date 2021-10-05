@@ -37,4 +37,6 @@ div {
     text-align: center;
     margin-left: 250px;
     margin-right: 250px;
+    font-family: 'Times New Roman', Times, serif
+    /*Font family is the new thing I learned*/
 }
