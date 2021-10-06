@@ -1,10 +1,10 @@
 body {
-    background-color: rgb(180, 180, 180);
+    background-color: rgb(110, 254, 255);
 }
 
 .nav {
     list-style-type: none;
-    background-color: gray;
+    background-color: rgb(1, 91, 163);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -17,22 +17,22 @@ ul.nav li {
 ul.nav li a {
     display: block;
     padding: 8px 16px;
-    color: black;
+    color: rgb(123, 153, 190);
     text-decoration: none;
 }
 
 ul.nav li a:hover {
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(11, 37, 135);
     color: white;
 }
 
 .active {
-    background-color: bisque;
+    background-color: rgb(66, 66, 66);
 }
 
 div {
     size: 25px;
-    color: rgb(66, 66, 66);
+    color: rgb(44, 44, 44);
     display: block;
     text-align: center;
     margin-left: 250px;
