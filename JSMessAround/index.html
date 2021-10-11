@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1>Lets learn some javascript!</h1>
+    <h2>How do we do onclick events and alerts on anchor?</h2>
+    <a href="https://eastsideprep.org" target="_blank" onclick="alert('Warning. You are navigating away from my page.')">Eastside Prep</a>
+    <hr>
+    <h2>How do we change HTML with javascript with a button?</h2>
+    <p>What's my secret identity?</p>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='nana nana nana nana, batman!';document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById( 'secret').style.display='none' ">Hide</button>
+    <hr>
+    <br>
+    <br>
+    <img src="images/pic_bulboff.gif.gif" id="bulb">
+    <br>
+    <button onclick="document.getElementById('bulb').src='images/pic_bulbon.gif.gif'">Turn On</button>
+    <button onclick="document.getElementById('bulb').src='images/pic_bulboffx.gif.gif'">Turn Off</button>
+    <hr>
+    <br>
+    <br>
+    <p id="alice" style="font-size:25px">Hi im alice!</p>
+    <button onclick="document.getElementById('alice').style.fontSize='35px';document.getElementById('alice').style.color='Blue'">Eat Cake</button>
+    <button onclick="document.getElementById('alice').style.fontSize='25px';document.getElementById('alice').style.color='Black'">Reset</button>
+    <button onclick="document.getElementById('alice').style.fontSize='15px';document.getElementById('alice').style.color='Green'">Drink Potion</button>
+    <hr>
+    <br>
+    <br>
+    <button onclick="document.getElementById('alice').style.boxShadow = '10px 20px 30px black'; document.getElementById('alice').style.fontVariant='small-caps'">Add Shadow and Small Caps to Alice</button>
+</body>
+
+</html>
