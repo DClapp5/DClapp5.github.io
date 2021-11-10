@@ -1,0 +1,14 @@
+.navcolor {
+    background-color: #0077be;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+ul.nav li a {
+    display: block;
+    padding: 8px 16px;
+    color: black;
+    text-decoration: none;
+}
