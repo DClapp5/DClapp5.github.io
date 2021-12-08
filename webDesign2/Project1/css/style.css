@@ -1,0 +1,35 @@
+.bContainer {
+    margin: 50px;
+}
+
+.bText {
+    color: rgb(29, 29, 29);
+}
+
+.bImg {
+    width: 100%;
+}
+
+body {
+    background: rgb(162, 162, 162);
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+    background: gray;
+    padding: 10px;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+}
+
+td {
+    width: 45%;
+}
+
+p {
+    text-indent: 50px;
+}
