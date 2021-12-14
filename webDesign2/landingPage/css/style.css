@@ -1,0 +1,27 @@
+    div {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    
+    body {
+        background: rgb(22, 130, 40);
+    }
+    
+    .cd {
+        width: 100%;
+    }
+    
+    h1,
+    p {
+        color: red;
+        text-align: center;
+    }
+    
+    p {
+        font-size: 30px
+    }
+    
+    body {
+        font-family: sans-serif;
+    }
