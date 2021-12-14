@@ -22,14 +22,29 @@ body {
     color: black;
 }
 
-h2 {
+h4 {
     text-align: center;
 }
 
 td {
     width: 45%;
+    vertical-align: top;
 }
 
 p {
     text-indent: 50px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(140, 140, 140);
+    padding: 10 auto auto;
+}
+
+h1 {
+    background-color: rgb(99, 99, 99);
+    width: 80%;
+    margin: auto;
 }
