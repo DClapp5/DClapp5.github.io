@@ -1,6 +1,6 @@
     div {
         text-align: center;
-        margin: auto;
+        margin: 0 auto auto;
         width: 100%;
     }
     
@@ -24,4 +24,10 @@
     
     body {
         font-family: sans-serif;
+    }
+    
+    h1 {
+        background: rgb(22, 100, 34);
+        margin: 0px;
+        padding: 10px
     }
