@@ -1,0 +1,40 @@
+    div {
+        text-align: center;
+        margin: 0 auto auto;
+        width: 100%;
+    }
+    
+    h1,
+    p {
+        color: red;
+        text-align: center;
+    }
+    
+    body {
+        font-family: sans-serif;
+        background: rgb(22, 130, 40);
+        width: 96%;
+        height: 100%;
+    }
+    
+    .header {
+        background: rgb(20, 82, 29);
+        margin: 0px;
+        padding: 0px;
+        top: 0;
+        position: fixed;
+        z-index: 100000;
+    }
+    
+    img {
+        margin: 0 30%;
+        z-index: 0;
+        position: static;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(27, 114, 37);
+    }
