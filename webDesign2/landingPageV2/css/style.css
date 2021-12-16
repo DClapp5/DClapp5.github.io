@@ -1,0 +1,42 @@
+div {
+    text-align: center;
+    margin: 0 auto auto;
+    width: 100%;
+}
+
+body {
+    background: rgb(22, 130, 40);
+    font-family: sans-serif;
+}
+
+.cd {
+    width: 100%;
+}
+
+h1,
+h4,
+p {
+    color: red;
+    text-align: center;
+}
+
+h4 {
+    font-size: 30px
+}
+
+h1 {
+    background: rgb(22, 100, 34);
+    margin: 0px;
+    padding: 10px
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 133, 51);
+}
+
+img {
+    width: 94%;
+}
