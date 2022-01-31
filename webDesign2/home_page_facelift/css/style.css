@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 16px 0;
+    overflow: hidden;
+    background-color: rgb(255, 161, 73);
+}
+
+nav li {
+    display: inline;
+}
+
+nav li div {
+    display: inline;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a {
+    display: inline;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(162, 103, 72);
+}
+
+.container {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.header {
+    background-color: rgb(233, 184, 131);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.main {
+    float: left;
+    width: 65%;
+    padding: 0 20px;
+}
+
+.left {
+    float: left;
+    width: 15%;
+    background-color: rgb(225, 225, 225);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.right {
+    float: left;
+    width: 20%;
+    background-color: rgb(225, 225, 225);
+    padding: 15px;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width:620px) {
+    .left,
+    .main,
+    .right,
+    .img {
+        width: 100%;
+    }
+    nav ul,
+    nav li div {
+        padding: 1vw 0;
+    }
+}
+
+@media (min-width:621px) and (max-width:1000px) {
+    .main {
+        width: 80%;
+    }
+    .right,
+    .img {
+        width: 100%;
+    }
+    nav ul,
+    nav li div nav li a {
+        padding: 1vw 0;
+    }
+}
+
+footer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: rgb(225, 225, 225);
+    padding: 10px 0;
+    clear: both;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.4vw;
+}
+
+p,
+a,
+li {
+    font-size: 1.2vw;
+}
