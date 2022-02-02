@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Nav Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="nav" style="opacity:0" id="demoNav">
+        <ol>
+            <li class="navLink"><a href="#">link 1</a></li>
+            <li class="navLink"><a href="#">link 2</a></li>
+            <li class="navLink"><a href="#">link 3</a></li>
+            <li class="navLink"><a href="#">link 4</a></li>
+            <li class="navLink"><a href="#">link 5</a></li>
+        </ol>
+    </div>
+    <div class="container">
+
+        <h1>Vertical Nav Tutorial</h1>
+
+        <h2>Lets start in Index.html</h2>
+        <h3>First, create a div for your nav</h3>
+        <p>This will act as a container and allow us to have a background box.</p>
+        <pre>
+            <code>
+                &lt;div class="nav"&gt;    
+                &lt;/div&gt;
+            </code>
+        </pre>
+
+        <h3>Now, add an ordered list with all your links</h3>
+        <pre>
+            <code>
+                &lt;div class="nav"&gt;    
+                    &lt;ol&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 1&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 2&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 3&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 4&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 5&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+
+        <h2>Now lets jump into CSS</h2>
+        <h3>First create a class under "*", which will apply to everything</h3>
+        <pre>
+            <code>
+                *{
+                    padding:0;
+                    margin:0;
+                }
+            </code>
+        </pre>
+
+        <h3>Next create a "nav" class</h3>
+        <pre>
+            <code>
+                .nav {
+                    width: 200px;
+                    height: 100%;
+                    background-color: grey;
+                    float: left;
+                    position: fixed
+                }
+            </code>
+        </pre>
+
+        <h3>Now lets create a tag which applies to any "ol" which are within the "nav" div</h3>
+        <pre>
+            <code>
+                .nav ol{
+                    list-style: none;
+                }
+            </code>
+        </pre>
+
+        <h3>Lets create a new, further specified class</h3>
+        <pre>
+            <code>
+                .nav ol li a{
+                    color: white;
+                    font-size: 20px
+                    padding: 15px 20px
+                    text-decoration: none;
+                    display: block;
+                    position: relative;
+                }
+            </code>
+        </pre>
+
+        <h3>To finish off the nav, we need to add a slight color change when the user hovers</h3>
+        <pre>
+            <code>
+                .nav ol li a:hover {
+                    color: rgb(0, 0, 0);
+                    background-color: rgb(189, 189, 189)
+                }
+            </code>
+        </pre>
+
+        <h3>And all the nav code put together should look like this:</h3>
+        <pre>
+            <code>
+                &lt;div class="nav"&gt;    
+                    &lt;ol&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 1&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 2&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 3&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 4&lt;/a&gt;&lt;/li&gt;
+                        &lt;li class="navLink"&gt;&lt;a href="#"&gt;link 5&lt;/a&gt;&lt;/li&gt;
+                    &lt;/ol&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+
+        <h3>And all the CSS code put together should look like this:</h3>
+        <pre>
+            <code>
+                * {
+                    padding: 0;
+                    margin: 0;
+                }
+                
+                .nav {
+                    width: 200px;
+                    height: 100vw;
+                    background-color: grey;
+                }
+                
+                .nav ol {
+                    list-style: none;
+                }
+                
+                .nav ol li a {
+                    color: white;
+                    font-size: 20px;
+                    padding: 15px 20px;
+                    text-decoration: none;
+                    display: block;
+                    position: relative;
+                }
+                
+                .nav ol li a:hover {
+                    color: rgb(0, 0, 0);
+                    background-color: rgb(189, 189, 189)
+                }
+            </code>
+        </pre>
+
+        <div class="showHide">
+            <button onclick="document.getElementById('demoNav').style.opacity='100'">Show Nav</button>
+            <button onclick="document.getElementById('demoNav').style.opacity='0'">Hide Nav</button>
+        </div>
+    </div>
+</body>
+
+</html>

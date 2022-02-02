@@ -1,0 +1,87 @@
+.container {
+    width: 60%;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+}
+
+body {
+    background: rgb(177, 177, 177);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2vw;
+}
+
+h2 {
+    font-size: 1.5vw;
+}
+
+h3 {
+    font-size: 1.1vw;
+}
+
+p {
+    font-size: 0.8vw;
+}
+
+pre code {
+    background: #eee;
+    border: 1px solid #999;
+    display: block;
+    padding: 5px;
+}
+
+.showHide {
+    margin: auto;
+    text-align: center
+}
+
+button {
+    width: 20%;
+    margin: 0 50px;
+    padding: 10px 0;
+    background-color: rgb(235, 235, 235);
+}
+
+
+/* Nav Demo CSS */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    width: 200px;
+    height: 100%;
+    background-color: grey;
+    float: left;
+    position: fixed
+}
+
+.nav ol {
+    list-style: none;
+}
+
+.nav ol li a {
+    color: white;
+    font-size: 20px;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.nav ol li a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(189, 189, 189)
+}
