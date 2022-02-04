@@ -1,0 +1,104 @@
+body {
+    background-image: url(images/background.jfif);
+    background-attachment: fixed;
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 60vw;
+    height: fit-content;
+    padding: 2vw;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+    margin: 10% auto;
+}
+
+.container:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+.nav:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .2);
+    filter: blur(10px);
+    margin: -20px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    width: 10%;
+    height: 100%;
+    float: left;
+    position: fixed;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    z-index: 1;
+    background: inherit;
+    overflow: hidden;
+}
+
+.nav ol {
+    list-style: none;
+}
+
+.nav ol li a {
+    color: white;
+    font-size: 1.5vw;
+    padding: 10% 20%;
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.nav ol li a:hover {
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .1);
+}
+
+h1,
+p,
+h3 {
+    text-align: center
+}
+
+h1 {
+    font-size: 3vw;
+    padding: 0 0 50px
+}
+
+h3 {
+    font-size: 1.5vw;
+}
+
+p {
+    font-size: 1.2vw;
+}

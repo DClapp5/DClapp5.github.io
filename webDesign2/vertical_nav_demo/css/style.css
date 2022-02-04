@@ -29,7 +29,8 @@ h3 {
     font-size: 1.1vw;
 }
 
-p {
+p,
+code {
     font-size: 0.8vw;
 }
 
@@ -74,7 +75,7 @@ button {
 
 .nav ol li a {
     color: white;
-    font-size: 20px;
+    font-size: 1.5vw;
     padding: 15px 20px;
     text-decoration: none;
     display: block;
