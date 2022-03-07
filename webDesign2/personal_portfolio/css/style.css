@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
 body {
     background-color: #34383c;
     background-attachment: fixed;
@@ -8,6 +14,27 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     color: white;
+}
+
+.bodyContainer a {
+    color: rgb(112, 112, 255);
+}
+
+.gridSection {
+    width: 40%;
+    height: 30vh;
+    float: left;
+    margin: 5%;
+}
+
+.gridSection a img {
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.gridSection a img:hover {
+    width: 102%;
+    transition-duration: 0.5s;
 }
 
 .leftHeader {
@@ -100,7 +127,7 @@ body {
 
 .aboutImg {
     float: right;
-    width: 35%;
+    width: 38%;
     border-radius: 2vw;
 }
 
@@ -144,6 +171,12 @@ body {
     float: left;
     margin: inherit 5% inherit inherit;
     vertical-align: middle;
+}
+
+.pricingSection {
+    width: 80%;
+    padding: 2% 5%;
+    margin: 5%;
 }
 
 .right {
@@ -192,17 +225,15 @@ hr {
     margin: 2vw 0;
 }
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: sans-serif;
-}
-
 h1,
 p,
 h3 {
     text-align: left;
     margin: 0;
+}
+
+li {
+    font-size: 1.8vw;
 }
 
 h1 {
@@ -366,11 +397,6 @@ header a {
 
 
 /* footer */
-
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-* {
-    font-family: Roboto;
-}
 
 .footer-distributed {
     background-color: #292c2f;
@@ -569,5 +595,17 @@ footer {
         width: 35vw;
         transform: translateX(-12.5%);
         margin: 2% 0 2% 5%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .gridSection {
+        width: 90%;
+        height: auto;
+        float: none;
+        margin: 5%;
+    }
+    .gridSection a img {
+        width: 100%;
     }
 }
