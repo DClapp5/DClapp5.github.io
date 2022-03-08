@@ -220,9 +220,13 @@ header hr {
     margin: 15% 0 15% -6%;
 }
 
-hr {
-    width: auto;
+header hr {
     margin: 2vw 0;
+}
+
+.bodyContainer hr {
+    width: auto;
+    margin: 4vw 0 2vw;
 }
 
 h1,
@@ -232,7 +236,7 @@ h3 {
     margin: 0;
 }
 
-li {
+.pricingSection li {
     font-size: 1.8vw;
 }
 
@@ -288,7 +292,7 @@ header a {
 
 .header li a:hover,
 .header .menu-btn:hover {
-    background-color: #292929;
+    background-color: #313131;
 }
 
 .header .logo {
@@ -406,6 +410,7 @@ header a {
     text-align: left;
     font: normal 16px sans-serif;
     padding: 45px 50px;
+    margin-top: 5vw;
 }
 
 .footer-distributed .footer-left p {
