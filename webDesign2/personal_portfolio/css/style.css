@@ -194,7 +194,7 @@ body {
     height: 100%;
     background-size: cover;
     height: fit-content;
-    position: absolute;
+    position: relative;
     z-index: 1;
     background: inherit;
     overflow: hidden;
@@ -227,7 +227,7 @@ header hr {
 
 .bodyContainer hr {
     width: auto;
-    margin: 4vw 0 2vw;
+    margin: 2vw 0 2vw;
 }
 
 h1,
@@ -601,6 +601,9 @@ footer {
         width: 35vw;
         transform: translateX(-12.5%);
         margin: 2% 0 2% 5%;
+    }
+    body {
+        background-position: top;
     }
 }
 
